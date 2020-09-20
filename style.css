@@ -1,0 +1,53 @@
+body {
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    background-image: url('desktop.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9
+}
+
+header {}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    color: #D0F8FF;
+    text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF, 0 0 20px #A5F1FF, 0 0 30px #A5F1FF, 0 0 40px #A5F1FF;
+}
+
+.profileCard img {
+    border: 1px solid;
+    max-width: 300px;
+    display: block;
+    margin-top: 75px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-block {
+    text-align: center;
+}
+
+ul {
+    float: inherit;
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.4s ease;
+}
+
+ul li a:hover {
+    background-color: ivory;
+    color: black;
+}
